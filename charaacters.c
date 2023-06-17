@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+//use the string library for get the strlen function. strlen function works for counting letters or characters
 #include <string.h>
 
 int main(void)

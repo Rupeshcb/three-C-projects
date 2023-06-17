@@ -7,6 +7,7 @@ int main(void)
 {
     string s = "This is your subjects average calculator";
     printf("%s\n", s);
+    //ask the users to give their numbers of subjects using get_int
     int N = get_int("Numbers of Subjects: ");
     int scores[N];
     for (int i = 0; i < N; i++)
