@@ -5,7 +5,9 @@
 
 int main(void)
 {
+    //ask the users for write their lowercase letters
     string s = get_string("Write your lowercase letters: ");
+    // print the uppercase letters
     printf("WOW! This is your Uppercase letters: ");
     for( int i = 0, n = strlen(s); i < n; i++)
     {
